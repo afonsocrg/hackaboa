@@ -3,7 +3,7 @@ import GitHubLogo from './assets/github.svg'
 export default function App() {
   return (
     <div className="w-full flex flex-col">
-      <a href="https://github.com/hacka-network/hackaboa" target="_blank" className="github-icon">
+      <a href="https://github.com/afonsocrg/hackaboa" target="_blank" className="github-icon">
         <img alt="Edit this on GitHub" width="30" height="30" src={GitHubLogo} />
       </a>
 
