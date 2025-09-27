@@ -8,7 +8,9 @@ export default function App() {
       </a>
 
       <div className="p-8 mt-20 max-w-3xl mx-auto">
-        <h1 className="text-center text-avocado-500">Hackaboa 💻🤓🚃</h1>
+        <h1 className="text-center text-avocado-500">
+          Hackaboa <span className="whitespace-nowrap">💻🤓🚃</span>
+        </h1>
         <h2 className="text-center text-avocado-500 text-base mt-8 mb-16">
           EST 2025. Part of{' '}
           <a
@@ -16,7 +18,7 @@ export default function App() {
             target="_blank"
             className="underline text-[#3872EC] hover:text-[#3872EC]/60"
           >
-            HACKA* NETWORK
+<span className="whitespace-nowrap">HACKA* NETWORK</span>
           </a>
         </h2>
         <p className="font-bold">
