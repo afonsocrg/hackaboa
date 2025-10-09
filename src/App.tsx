@@ -1,5 +1,6 @@
 import GitHubLogo from './assets/github.svg'
 import UFLLogo from './assets/ufl_logo.png'
+import CountdownBanner from './CountdownBanner'
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
         <h1 className="text-center text-avocado-500">
           Hackaboa <span className="whitespace-nowrap">💻🤓🚃</span>
         </h1>
-        <h2 className="text-center text-avocado-500 text-base mt-8 mb-16">
+        <h2 className="text-center text-avocado-500 text-base mt-8 mb-8">
           EST 2025. Part of{' '}
           <a
             href="https://hacka.network/?utm_source=hackaboa"
@@ -22,6 +23,9 @@ export default function App() {
             <span className="whitespace-nowrap">HACKA* NETWORK</span>
           </a>
         </h2>
+
+        <CountdownBanner />
+
         <p className="font-bold">
           A community-run group of indie makers / coders / designers / hardware hackers who build their own independent apps/startups, meeting up every Thursday for weekly co-working (and demos) at{' '}
           <a
