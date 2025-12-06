@@ -1,6 +1,6 @@
 import GitHubLogo from './assets/github.svg'
 import UFLLogo from './assets/ufl_logo.png'
-import CountdownBanner from './CountdownBanner'
+import TweetsSection from './TweetsSection'
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
         <img alt="Edit this on GitHub" width="30" height="30" src={GitHubLogo} />
       </a>
 
-      <div className="p-8 mt-20 max-w-3xl mx-auto">
+      <div className="p-8 mt-20 max-w-full md:max-w-3xl mx-auto">
         <h1 className="text-center text-avocado-500">
           Hackaboa <span className="whitespace-nowrap">💻🤓🚃</span>
         </h1>
@@ -23,8 +23,6 @@ export default function App() {
             <span className="whitespace-nowrap">HACKA* NETWORK</span>
           </a>
         </h2>
-
-        <CountdownBanner />
 
         <p className="font-bold">
           A community-run group of indie makers / coders / designers / hardware hackers who build their own independent apps/startups, meeting up every Thursday for weekly co-working (and demos) at{' '}
@@ -64,6 +62,8 @@ export default function App() {
 
           <p className="font-semibold">Please fill out the form and we'll send you the details!</p>
         </div>
+
+        <TweetsSection />
 
         <div className="mt-12 mb-8 text-center">
           <p className="text-sm mb-4">Proudly hosted by ❤️:</p>
