@@ -63,8 +63,6 @@ export default function App() {
           <p className="font-semibold">Please fill out the form and we'll send you the details!</p>
         </div>
 
-        <TweetsSection />
-
         <div className="mt-12 mb-8 text-center">
           <p className="text-sm mb-4">Proudly hosted by ❤️:</p>
           <a
@@ -80,6 +78,9 @@ export default function App() {
             />
           </a>
         </div>
+
+        <TweetsSection />
+
       </div>
 
       <div className="flex flex-col h-[900px] overflow-hidden">
