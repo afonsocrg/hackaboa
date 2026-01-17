@@ -21,8 +21,8 @@ export default function TweetsSection() {
   }, [])
 
   return (
-    <div className="my-12">
-      <p>Our latest meetups:</p>
+    <section className="my-12">
+      <p>Previous meetups:</p>
 
       {isLoading ? (
         <p className="text-center py-8">Loading...</p>
@@ -40,6 +40,6 @@ export default function TweetsSection() {
           </div>
         </div>
       )}
-    </div>
+    </section>
   )
 }
