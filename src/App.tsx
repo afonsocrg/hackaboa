@@ -1,6 +1,8 @@
 import GitHubLogo from './assets/github.svg'
 import UFLLogo from './assets/ufl_logo.png'
 import TweetsSection from './TweetsSection'
+import RegisterButton from './RegisterButton'
+import LumaEmbed from './LumaEmbed'
 
 export default function App() {
   return (
@@ -60,7 +62,7 @@ export default function App() {
             <li><span className="font-bold">5pm – Drinks</span> somewhere nearby 🍻🍷</li>
           </ul>
 
-          <p className="font-semibold">Please fill out the form and we'll send you the details!</p>
+          <LumaEmbed/>
         </div>
 
         <div className="mt-12 mb-8 text-center">
@@ -80,15 +82,6 @@ export default function App() {
         </div>
 
         <TweetsSection />
-
-      </div>
-
-      <div className="flex flex-col h-[900px] overflow-hidden">
-        <iframe
-          className="flex-grow w-full -mt-[200px] h-[calc(100%+200px)]"
-          src="https://tally.so/r/mRpb79"
-          title="Hackaboa Registration Form"
-        />
       </div>
     </div>
   )
