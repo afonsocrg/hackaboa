@@ -1,7 +1,6 @@
 import GitHubLogo from './assets/github.svg'
 import UFLLogo from './assets/ufl_logo.png'
 import TweetsSection from './TweetsSection'
-import RegisterButton from './RegisterButton'
 import LumaEmbed from './LumaEmbed'
 
 export default function App() {
