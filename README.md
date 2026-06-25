@@ -10,10 +10,12 @@ If you code your own projects come and join us every Thursday from 9.15am at a c
 
 The usual schedule is:
 
-* 9.30am – Intros (a little about yourself + what you're working on)
+* 9.30am - Doors open
+* 10.30am – Intros (a little about yourself + what you're working on)
 * 12:30pm – Local lunch together (if you want)
 * 4pm – Demos (share what you made today, or just watch)
 * 5pm – Drinks somewhere nearby 🍻🍷
 
+We follow the official [Hacka* day rules](https://github.com/hacka-network/hacka.network/blob/main/day-rules.md).
 
 Please fill out [this form](https://hackaboa.com) and we'll send you the details!
