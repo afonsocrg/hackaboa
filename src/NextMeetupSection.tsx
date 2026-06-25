@@ -31,6 +31,15 @@ export default function NextMeetupSection() {
     ? getEventIdForDate(currentDateStr!)
     : getNextEventId(new Date())
 
+  // No event to show: hide the section rather than render an empty header.
+  // Keep it visible while debugging so the date picker stays usable.
+  if (!eventId && !DEBUG_EVENTS) {
+    if (import.meta.env.DEV) {
+      console.log('[NextMeetupSection] No upcoming events — section hidden.')
+    }
+    return null
+  }
+
   return (
     <section className="mt-8 text-left">
 
